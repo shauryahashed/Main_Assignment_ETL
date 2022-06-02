@@ -1,0 +1,51 @@
+
+version: 2
+
+models:
+
+
+
+  - name: MILESTONE1_b_max
+    description: "milestone1b"
+    columns:
+      - name: code
+        description: "The primary key for this table"
+        tests:
+          - unique
+          - not_null
+
+  - name: MILESTONE1_b_min
+    description: "milestone1b"
+    columns:
+      - name: code
+        description: "The primary key for this table"
+        tests:
+          - unique
+          - not_null
+
+  - name: MILESTONE1_a
+    description: "milestone1a"
+    columns:
+      - name: code
+        description: "The primary key for this table"
+        tests:
+          - unique
+          - not_null
+
+  - name: Milestone2_1
+    description: "milestone2a"
+    columns:
+      - name: code
+        description: "The primary key for this table"
+        tests:
+          - unique
+          - not_null
+
+  - name: Milestone2_3
+    description: "Mutual funds that are discontinued"
+    columns:
+      - name: code
+        description: "The primary key for this table"
+        tests:
+          - unique
+          - not_null
